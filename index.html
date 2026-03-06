@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Noto+Sans+Devanagari:wght@100..900&family=Noto+Sans+Oriya:wght@100..900&family=Sekuya&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar">
+      <div class="logo">Swayam Kumar Panda</div>
+      <div class="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <main id="home" class="section">
+      <div class="text-center">
+        <h1 id="wel">WELCOME TO MY PORTFOLIO</h1>
+      </div>
+      <div class="carousel p-2">
+        <div class="group">
+          <div class="card">
+            <img src="./assets/IMG-20251215-WA0006.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="./assets/IMG-20251215-WA0005.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251221-WA0034.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251221-WA0086.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251223-WA0082.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251223-WA0059.jpg" alt="" />
+          </div>
+        </div>
+        <div aria-hidden class="group">
+          <div class="card">
+            <img src="./assets/IMG-20251215-WA0006.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="./assets/IMG-20251215-WA0005.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251221-WA0034.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251221-WA0086.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251223-WA0082.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="/assets/IMG-20251223-WA0059.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ABOUT & SKILLS SECTION -->
+    <section id="about" class="section about-section">
+      <div class="about-container">
+        <h1 id="font">ABOUT ME & SKILLS ↓</h1>
+        <div class="about-flex">
+          <p class="about-text">
+            I’m a passionate developer who enjoys building clean, interactive
+            web experiences using JavaScript, HTML, and CSS. I like turning
+            ideas into working products and solving real-world problems through
+            code, not just writing syntax. I focus on logic, usability, and
+            performance, and I enjoy breaking down complex problems into simple,
+            practical solutions. Whether it’s creating smooth UI interactions,
+            fixing layout issues, or improving user experience, I’m always
+            curious about why something works and how it can work better. I’m
+            continuously learning modern web technologies and experimenting with
+            animations, responsive design, and interactive components. My goal
+            is to build products that feel intuitive, fast, and meaningful for
+            real users. <br /><br /><br />🎯 Interests <br /><br />
+            --> Solving real-life problems with code <br />
+            --> Building interactive UIs <br />
+            --> Learning modern JavaScript frameworks <br />
+            --> Exploring animations & micro-interactions <br />
+            --> Improving user experience through logic
+          </p>
+          <img
+            id="profile"
+            src="/assets/generated-image (4).png"
+            alt="image"
+          />
+        </div>
+
+        <!-- Skills Area Integrated into About -->
+        <div class="skills-integrated">
+          <div class="log">
+            <div><img src="/assets/images.png" alt="" /></div>
+            <div>
+              <img src="/assets/Adobe_Premiere_Pro_CC_icon.svg.png" alt="" />
+            </div>
+            <div>
+              <img src="/assets/canva-transparent-icon-free-png.png" alt="" />
+            </div>
+            <div><img src="/assets/images (1).png" alt="" /></div>
+            <div><img src="/assets/images (2).png" alt="" /></div>
+            <div><img src="/assets/JavaScript-logo.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="text-center">
+        <h1 class="skills-title font-bold">MY PROJECTS</h1>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-image calculator-bg"></div>
+          <div class="project-info">
+            <h3 class="project-title">Calculator App</h3>
+            <p class="project-desc">A fully functional, responsive calculator built with vanilla JavaScript, HTML, and CSS.</p>
+            <a href="./CALCULATOR/index.html" class="project-btn">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image car-bg"></div>
+          <div class="project-info">
+            <h3 class="project-title">Car Rental Website</h3>
+            <p class="project-desc">A beautiful, modern landing page for a car rental service with responsive design.</p>
+            <a href="./Car/index.html" class="project-btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="text-center">
+        <h1 class="skills-title font-bold">GET IN TOUCH</h1>
+        <div class="contact-details">
+          <p>Email: pswayamkumar@gmail.com</p>
+          <p>Phone: 7326062901</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <div class="footer" >
+      <footer class="footer-container">
+        <p>@2026.swayam.copyrights</p>
+        <a href="https://www.linkedin.com/in/swayam-kumar-panda-a47181222/" class="ml-auto">
+          <img class="footer-icon mask-right" src="/assets/download.png" alt="LinkedIn" />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
